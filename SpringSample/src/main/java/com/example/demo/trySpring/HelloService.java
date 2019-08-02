@@ -28,6 +28,7 @@ public class HelloService {
 		ao.setAoId(aoId);
 		ao.setAoName(aoName);
 		ao.setAge(age);
+		System.out.println(aoName);
 
 		return ao;
 	}
